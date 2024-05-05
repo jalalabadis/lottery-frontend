@@ -1,0 +1,640 @@
+/* App.css */
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  margin: 0; 
+  background: #2C1A00;
+}
+
+.containers {
+  display: flex;
+  height: 100vh;
+  margin: 0;
+  background: #2C1A00;
+  background-image: url('/public/asset/background-doggy_theme.png');
+  background-size: cover;
+
+}
+
+.sidebar {
+  width: 250px;
+  background-color: #7c561c;
+  min-height: 100vh;
+  overflow-y: auto; 
+  position: relative;
+}
+
+.doglogo_sidebars{
+  width: 235px;
+  height: 219x;
+}
+
+.sidebar-mobile {
+  width: 250px;
+  background-color: #1D202B;
+  min-height: 100vh;
+  overflow-y: auto; 
+  position: absolute;
+  display: none;
+}
+
+
+.logo a{
+  padding: 0 ;
+  font-family: Poppins;
+font-size: 40px;
+font-weight: 700;
+line-height: 60px;
+text-align: left;
+width: 126px;
+height: 50px;
+top: 0;
+left: 15px;
+gap: 0px;
+opacity: 0px;
+color: #FFFFFF;
+position: absolute;
+}
+.logo a:hover{
+  color: #dfdcdc;
+}
+.sidebar-items {
+  padding: 20px;
+  position: absolute;
+  top: 30vh;
+  left: 10px;
+}
+
+.sidebar-items ul {
+  list-style-type: none;
+  padding: 0;
+  font-family: Poppins;
+font-size: 16px;
+font-weight: 500;
+line-height: 30px;
+text-align: left;
+width: 70px;
+height: 30px;
+top: 236px;
+left: 50px;
+gap: 0px;
+opacity: 0px;
+color: #FFFFFF;
+}
+
+.sidebar-items ul li{
+  width: 200px;
+  padding: 2px;
+  display: flex;  
+  align-items: center;
+  gap: 5px;
+  margin-bottom: 25px;
+}
+.sidebar-items ul li a{
+  color: #FFFFFF;
+  font-size: 55px;
+  font-family: "Jolly Lodger", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+.sidebar-items ul li a:hover{
+  color: #dfdcdc;
+}
+.sidebar-items ul li img{
+  width: 25px;
+  height: 25px;
+}
+
+.linerst{
+  width: 200px;
+  height: 1px;
+background: #FFFFFF;  
+}
+
+.sidebar-footer {
+  padding: 20px;
+  position: absolute;
+  bottom: 0;
+}
+.socialiconinline{
+  display: flex;
+  gap: 12px;
+  margin-top: 8px;
+}
+.socialiconinline img{
+  width: 28px;
+  height: 28px;
+  top: 918px;
+  left: 63px;
+  gap: 0px;
+  opacity: 0px;  
+}
+
+.footerText{
+  color: #FFFFFF;
+  font-family: "Jolly Lodger", system-ui;
+  letter-spacing: 5px;
+font-size: 24px;
+font-weight: 700;
+line-height: 36px;
+text-align: left;
+
+}
+
+.footer-syrelink{
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+}
+.footer-syrelink  a{
+ color: #dfdcdc;
+  margin: 0;
+  font-family: "Jolly Lodger", system-ui;
+  letter-spacing: 2px;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 18px;
+  text-align: left;
+padding: 0; 
+}
+
+.footer-syrelink  a:hover{
+    color: #dfdcdc;
+  
+}
+
+.contentitexc {
+  flex: 1;
+  max-height: 100%;
+  overflow-y: auto; /* add scrollbar if needed */
+}
+
+.navigation {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  color: white;
+}
+
+.hadertbrtyu img{
+  width: 361px;
+  height: 109px;
+}
+
+.hadertbrtyu .brand {
+font-family: Poppins;
+font-size: 42px;
+font-weight: 500;
+line-height: 50px;
+text-align: left;
+
+}
+
+.hadertbrtyu span{
+font-family: Poppins;
+font-size: 18px;
+font-weight: 500;
+line-height: 36px;
+text-align: left;
+
+}
+
+.connect-btn {
+  width: 120px;
+  padding: 8px 30px;
+  background-color: #1CC55F;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.connect-btn:hover {
+  background-color: #19ac54;
+}
+
+.wallet-adapter-dropdown .wallet-adapter-button.wallet-adapter-button-trigger {
+  border: none;
+  color: rgb(0, 0, 0);
+  font-size: 22px;
+  font-family: "Jolly Lodger", system-ui;
+  letter-spacing: 5px;
+  font-weight: 400;
+  cursor: pointer;
+  width: 160px;
+  height: 90px;
+  display: flex;
+  padding: 20px 0 0 20px;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  background-image: url("/public/asset/connectbtn.png");
+  background-size: cover; 
+}
+
+/* Hover effect */
+.wallet-adapter-dropdown .wallet-adapter-button.wallet-adapter-button-trigger:hover {
+  background-color: transparent;
+}
+
+
+.wallet-adapter-dropdown .wallet-adapter-button.wallet-adapter-button-trigger .wallet-adapter-button-start-icon{
+display: none;
+
+}
+
+.container-itestr {
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  height: 80vh;
+}
+
+.sub_titler_image{
+  width: 220px;
+  height: 70px;
+  margin: 20px 5px;
+}
+
+.allitenmsdop_container{
+  background: #f6b0464f;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.row {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+.col {
+  flex: 1;
+  padding: 10px;
+  margin-right: 10px; 
+  display: flex;
+  justify-content: center;
+}
+
+.col:last-child {
+  margin-right: 0; /* Remove margin from last column in each row */
+}
+
+.itemscards{
+width: 239px;
+height: 305px;
+top: 236px;
+left: 316px;
+gap: 0px;
+border-radius: 9px 0px 0px 0px;
+opacity: 0px;
+
+}
+
+.itemscards .contentsites{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+width: 100%;
+height: auto;
+}
+.itemscards .contentsites img{
+width: 230px;
+height: 230px;
+top: 242px;
+left: 331px;
+gap: 0px;
+opacity: 0px;
+
+}
+
+.itemscards .contentsites span{
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: left;  
+  color: #855B5B;
+}
+
+.contentactionsrty {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 10px;
+bottom: 0;
+margin-top: 10px;
+}
+.contentactionsrty .imgtonunamunts{
+display: flex;
+align-items: center;
+gap: 5px;
+}
+
+.imgtonunamuntsbutton{
+  border: none;
+  color: rgb(0, 0, 0);
+  font-size: 25px;
+  font-family: "Jolly Lodger", system-ui;
+  letter-spacing: 2px;
+  font-weight: 100;
+  font-style: normal;
+  cursor: pointer;
+  width: 85px;
+  height: 60px;
+  text-align: center;
+  line-height: 22px;
+  background: transparent;
+  background-image: url("/public/asset/tokenbtn1.png");
+  background-size: cover;  
+}
+.contentactionsrty .imgtonunamunts img{
+  width: 30px;
+  height: 30px;
+  top: 494px;
+  left: 332px;
+  gap: 0px;
+  opacity: 0px;  
+  
+}
+
+.contentactionsrty .imgtonunamunts span{
+  font-family: Poppins;
+font-size: 18px;
+font-weight: 500;
+line-height: 27px;
+text-align: left;
+  width: 77px;
+  height: 29px;
+  top: 496px;
+  left: 372px;
+  gap: 0px;
+  opacity: 0px;  
+color: #FFFFFF;  
+}
+
+.contentactionsrtybutton{
+  border: none;
+  cursor: pointer;
+  width: 120px;
+  height: 60px;
+  background: transparent;
+  background-image: url("/public/asset/openbtn.png");
+  background-size: cover;  
+}
+
+.singleclimers{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height:auto;
+}
+
+.singleclimers .prizepools{
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.singleclimers .prizepools .titloprty{
+  font-family: Poppins;
+  color: #FFFFFF;
+  font-size: 35px;
+  margin: 0;
+  font-weight: 700;
+  line-height: 28px;
+}
+
+.singleclimers .prizepools span{
+color: #BCBCBC;
+margin: 0;
+font-family: Poppins;
+font-size: 15px;
+font-weight: 700;
+line-height: 22.5px;
+text-align: left;
+  
+}
+
+.amountrcdtlist{
+display: flex;
+align-items: center;
+margin-top: 10px;
+background: transparent;
+border-width: 3px 8px; 
+border-style: solid;
+border-color: #000000;
+border-radius: 240px 15px 100px 15px / 15px 200px 15px 185px;
+}
+
+.amountrcdtlist .amountrycad{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+.amountrcdtlist .amountrycad img{
+  width: 105px;
+  height: 105px;
+  top: 1326px;
+  left: -328px;
+  gap: 0px;
+  opacity: 0px;  
+  
+}
+.amountrcdtlist .amountrycad .soltyu_lkCard{
+  font-family: "Jolly Lodger", system-ui;
+  letter-spacing: 2px;
+  font-style: normal;
+  font-size: 34px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: left;
+  color: #000000;
+  border: 3px solid black;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.amountrcdtlist .amountrycad .soltyu_lkopuys{
+  font-family: "Jolly Lodger", system-ui;
+  letter-spacing: 2px;
+  font-style: normal;
+  font-size: 34px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: left;
+  color: #000000;
+  border: 3px solid black;
+  background: #cfa72f;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.tutorialclimcontent{
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  margin-top: 50px;
+  gap: 50px;
+
+}
+
+.tutorialclimcontent h2{
+  font-family: Poppins;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 60px;
+  text-align: left;
+  color: #FFFFFF;
+  margin: 0;
+  padding: 0;
+  
+}
+
+.tutorialclimcontent span{
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+  text-align: left;
+  color: #FFFFFF;
+  
+}
+
+.tutorialclimcontentbutton{
+  border: none;
+  color: rgb(0, 0, 0);
+  font-size: 35px;
+  font-family: "Jolly Lodger", system-ui;
+  letter-spacing: 2px;
+  font-weight: 100;
+  font-style: normal;
+  cursor: pointer;
+  width: 160px;
+  height: 120px;
+  text-align: center;
+  line-height: 30px;
+  background: transparent;
+  background-image: url("/public/asset/tokenbtn1.png");
+  background-size: cover;
+}
+
+.tutorialclimcontentbuttonclose{
+  border: none;
+  cursor: pointer;
+  width: 120px;
+  height: 60px;
+  background: transparent;
+  background-image: url("/public/asset/closebtn.png");
+  background-size: cover;    
+}
+
+.toppertutorialonly{
+display: flex;
+flex-direction: column;
+margin-bottom: 40px;
+}
+.gobackbuttons{
+  color: 'white';
+  font-size: "22px"
+}
+
+
+
+.hadratuloginandmenu svg{
+  width: 38px;
+  height: 40px;
+  display: none;
+}
+
+
+/* ========================================    ====================================================
+=============================================
+====================================  =================    ========================================
+==========================================            ====== ============                ========
+=============           ======================================================================*/
+
+@media only screen and (max-width: 600px) {
+
+  .sidebar{
+    display: none;
+  }
+  .sidebar-mobile {
+display: block;
+  }
+  .hadertbrtyu .brand{
+    font-size: 25px;
+    line-height: 15px;
+  }
+  .hadertbrtyu span{
+font-size: 10px;
+  }
+
+  .hadratuloginandmenu .wallet-adapter-dropdown{
+    display: none;
+  }
+  .navigation{
+    padding: 15px;
+    align-items: baseline;
+  }
+
+  .hadratuloginandmenu svg{
+display: block;
+  }
+
+
+  .wallet-adapter-dropdown .wallet-adapter-button.wallet-adapter-button-trigger {
+    
+    background-color: #1e2b2388;
+    width: 200px;
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* Hover effect */
+  .wallet-adapter-dropdown .wallet-adapter-button.wallet-adapter-button-trigger:hover {
+    background-color: #0a2214;
+  }
+
+  .wallet-adapter-dropdown .wallet-adapter-dropdown-list.wallet-adapter-dropdown-list-active{
+    position: absolute;
+    top: 50px;
+    left: 12px;
+    width: 180px;
+    height: 120px;
+    background: rgb(53, 51, 51);
+  }
+  .amountrcdtlist{
+    width: 100%;
+  }
+  .amountrcdtlist .amountrycad img{
+width: 25px;
+height: 25px;
+  }
+  .amountrcdtlist .amountrycad span{
+font-size: 12px;
+margin-top: 0px;
+  }
+}

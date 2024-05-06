@@ -122,9 +122,11 @@ const Index = () => {
       {
   !clitItem&& <img className="sub_titler_image" src="/asset/solbg.png" alt="" />}
       <div className="allitenmsdop_container">
-      <div className="row">
+      
+      {!clitItem && 
+  <div className="row">
 
-{!clitItem && itemData.gamesol.map((item, index)=>{
+ {itemData.gamesol.map((item, index)=>{
   return(
         <div className="col" key={index}>
 <div className="itemscards">
@@ -139,11 +141,9 @@ const Index = () => {
   </div>
 </div>
         </div> 
-       )})
-       
-       }
+       )})}
 
-      </div>
+      </div>}
 
 
 {/* Clim Item */}

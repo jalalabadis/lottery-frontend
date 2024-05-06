@@ -24,7 +24,7 @@ function Discount({clitItem, playgamesol, playgametoken, claimReward}) {
 </div>
 
 
-
+<div className="mob_setma_parcenbt_item">
 <div className="amountrcdtlist mt-5">
   <div className="amountrycad">
     <div className="soltyu_lkopuys">90%</div>
@@ -60,7 +60,7 @@ function Discount({clitItem, playgamesol, playgametoken, claimReward}) {
   <div className="amountrycad">
   <div className="soltyu_lkCard">1 <br /> <span style={{color: '#c8adff'}}>SOL</span></div>
   </div>
-</div>
+</div></div>
 </div>
   )
 }

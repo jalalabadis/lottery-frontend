@@ -18,19 +18,16 @@ function Indexmobile({status}:IndexMobileProps) {
         <WalletMultiButton>{!publicKey&&"Connect"}</WalletMultiButton>
           <ul>
 
-            <li  style={pathname === "/" ? {background: "rgb(52, 57, 75)"} : {}}>
-              <img src="/asset/box1.png" alt="" />
-            <Link to={'/'}> Chests</Link></li>
-            <div className="linerst"></div>
-            <li  style={pathname === "/docs" ? {background: "rgb(52, 57, 75)"} : {}}>
-              <img src="/asset/box1.png" alt="" /><Link to={'/docs'}> Docs </Link></li>
-            <li style={pathname === "/instruction" ? {background: "rgb(52, 57, 75)"} : {}}>
-              <img src="/asset/box1.png" alt="" /><Link to={'/instruction'}> How to play</Link></li>
-            <div className="linerst"></div>
-            <li style={pathname === "/dexscreener" ? {background: "rgb(52, 57, 75)"} : {}}>
-              <img src="/asset/box1.png" alt="" /> <Link to={'/dexscreener'}>Dexscreener</Link></li>
-            <li style={pathname === "/staking" ? {background: "rgb(52, 57, 75)"} : {}}>
-              <img src="/asset/box1.png" alt="" /><Link to={'/staking'}> Staking</Link></li>
+          <li  style={pathname === "/" ? {background: "#8f6322", padding: '10px'} : {}}>
+            <Link to={'/'}> Solana</Link></li>
+           
+            <li  style={pathname === "/boxer" ? {background: "#8f6322", padding: '10px'} : {}}>
+              <Link to={'/boxer'}> Boxer </Link></li>
+            <li style={pathname === "/docs" ? {background: "#8f6322", padding: '10px'} : {}}>
+              <Link to={'/docs'}> Docs</Link></li>
+           
+            <li style={pathname === "/dexscr" ? {background: "#8f6322", padding: '10px'} : {}}>
+               <Link to={'/dexscr'}>Dexscr</Link></li>
           </ul>
           
         </div>
